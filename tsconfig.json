@@ -20,7 +20,8 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "src"
+  "include": [ // specifies what files should be included in the compilation process
+    "src/**/*.ts", "src/**/*.tsx" // glob patterns, to match files and dirs 
+    // specifies that all files that are ts or tsx file from the starting dir (src), any number of dirs deep 
   ]
 }
